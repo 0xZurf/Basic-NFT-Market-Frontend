@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;500;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  --background: rgb(36, 28, 54);
+  --btnColor: blueviolet;
+  font-size: 22;
+}
+body {
+  background-color: var(--background);
+  color: white;
+  font-family: "Unbounded", cursive;
+}
+a {
+  text-decoration: none;
+}
+.bg {
+  background: url(/images/background.png);
+  /* min-height: 100vh; */
+  /* max-height: 800px; */
+  padding-bottom: 111px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 44px 0;
+  max-width: 1440px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.nav ul {
+  margin-left: auto;
+}
+.navLinks li {
+  display: inline-block;
+  margin-left: 44px;
+}
+.navBtn {
+  background-color: var(--btnColor);
+  padding: 11px 22px;
+  border: none;
+  font-size: 1rem;
+  margin-left: 8%;
+  border-radius: 22px;
+  color: aqua;
+  cursor: pointer;
+  margin-top: 22px;
+}
+.section1 > section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.section1 > section:last-of-type {
+  align-items: center;
+}
+.section1 {
+  display: flex;
+  gap: 44px;
+  align-items: center;
+  justify-content: center;
+  max-width: 1440px;
+  margin: 22px;
+  margin-top: 50px;
+}
+.section1 .sec1Txt a {
+  margin-top: 22px;
+  width: 111px;
+  border-radius: 8px;
+}
+.section1 .collectibles {
+  counter-reset: var(--btnColor);
+  margin-bottom: 22px;
+}
+.section1 > section:first-of-type p:first-of-type {
+  font-size: 3rem;
+  margin-bottom: 22px;
+}
+.section1 a {
+  display: inline-block;
+  color: var(--btnColor);
+  border: 1px solid var(--btnColor);
+  padding: 5px 10px;
+  border-radius: 22px;
+  width: 111px;
+  text-align: center;
+}
+.section1ImageBGContainer {
+  max-width: 400px;
+  background-color: rgba(201, 201, 201, 0.675);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+  border-radius: 11px;
+}
+.section1ImgContain {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+.section1ImgContain .mainImg {
+  width: 100%;
+  border-radius: 22px;
+}
+.section1ImgContain .heart {
+}
+.heartContainer {
+  position: absolute;
+  background-color: rgb(198, 255, 211);
+  width: 80px;
+  height: 30px;
+  top: 5px;
+  left: 5px;
+  border-radius: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+  gap: 10px;
+}
+.sect1Sub {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sect1Sub div {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  gap: 22px;
+}
+.sect1Sub a {
+  background-color: white;
+  border-color: green;
+  border-style: inset;
+  border-width: 8px;
+  color: green;
+}
+.section2 {
+  max-width: 1440px;
+  margin: 22px;
+}
+.sec2Head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sec2Head h2 {
+  margin-bottom: 22px;
+  font-size: 1.7rem;
+}
+.sec2Head a {
+  border-radius: 8px;
+  border: 4px solid blue;
+  color: white;
+  padding: 8px 11px;
+}
+.sec2CardContainer {
+  margin-top: 22px;
+  display: flex;
+  justify-content: center;
+  gap: 88px;
+}
+.sec2Card {
+  margin-top: 44px;
+  width: 222px;
+  /* height: 444px; */
+}
+.sec2CarSub {
+  padding: 22px 31px;
+  font-size: 12px;
+  background-color: rgb(160, 160, 160);
+  border-radius: 44px;
+}
+.sec2CarSub img {
+  width: 44px;
+}
+.sect2Sub {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(160, 160, 160);
+}
+.sect2Sub div {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 12px;
+  width: 80%;
+  gap: 22px;
+  margin-top: 11px;
+}
+.sect2Sub h3 {
+  margin-top: 11px;
+  font-size: 16px;
+  text-align: center;
+}
+.sect2Sub a {
+  background-color: white;
+  border-style: none;
+  padding: 4px;
+  width: 200px;
+  border-width: 4px;
+  border-radius: 8px;
+  color: green;
+  text-align: center;
+  font-size: 12px;
+}
+.section2ImgContain {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.section2ImgContain .mainImg {
+  width: 100%;
+  border-radius: 22px;
+  margin-bottom: 22px;
+}
+.section3 {
+  max-width: 1440px;
+  margin: 22px;
+  margin-top: 88px;
+  background-image: url(/images/background.png);
+  padding: 22px 44px;
+  border-radius: 22px;
+}
+.sec3BG {
+  background-color: rgba(205, 255, 255, 0.256);
+  padding: 8px 11px;
+  border-radius: 8px;
+  width: 44%;
+}
+.sec3Head p {
+  margin: 22px;
+}
+.sec3Content {
+  margin-top: 44px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 44px;
+}
+.sec3Card {
+  width: 222px;
+  padding: 11px;
+  background-color: rgba(172, 252, 252, 0.379);
+  border-radius: 11px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.sec3Card img {
+  width: 50px;
+  border-radius: 50%;
+}
+.section4 {
+  max-width: 1440px;
+  margin: 22px;
+  margin-top: 88px;
+}
+.sec4Head {
+  display: flex;
+  justify-content: space-between;
+}
+.sec4Head a {
+  text-decoration: underline;
+}
+.Categories {
+  display: flex;
+  margin: 22px;
+}
+.Categories h4 {
+  margin-right: 33%;
+}
+.sec4Container {
+  display: flex;
+  justify-content: center;
+  gap: 88px;
+}
+.sec4Card {
+  margin-top: 22px;
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  grid-template-rows: repeat(2, 1fr);
+}
+.sec4Card img {
+  width: 100%;
+  height: 100%;
+}
+.sec4Card img:nth-child(2) {
+  grid-column: 2/-1;
+  grid-row: 1/-1;
+}
